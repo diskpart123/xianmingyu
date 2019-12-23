@@ -1,0 +1,9 @@
+#智能代码提示
+Kite 软件网址:https://kite.com/
+TabNine:插件,pycharm自动集成
+Material Theme UI
+
+Pycharm控制台输出文件内容不完整设置:
+    settings-Editor-General-console
+        1.console commands history size:1000000
+        2.勾选上"override console cycle buffer size(1000000kb)"_50000_kb

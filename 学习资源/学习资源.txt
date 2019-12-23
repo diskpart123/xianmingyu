@@ -1,0 +1,60 @@
+
+开始学习
+
+廖雪峰: https://www.liaoxuefeng.com/wiki/1016959663602400
+菜⻦教程: https://www.runoob.com/python3/python3-tutorial.html
+Python3.6中⽂⼿册: https://www.runoob.com/manual/pythontutorial3/docs/html/
+可有可⽆： https://github.com/TwoWater/Python
+
+
+资源
+awesome: https://github.com/vinta/awesome-python
+
+
+练习
+
+learnpython系列: https://github.com/michaelliao/learn-python3
+⼀百天⼩练习: https://github.com/jackfrued/Python-100-Days
+My Python Examples: https://github.com/geekcomputers/Python
+
+
+⼩实战
+模拟登陆: https://github.com/CriseLYJ/awesome-python-login-model
+interesting-python: https://github.com/Alfred1984/interesting-python
+
+Scrapy
+https://scrapy-chs.readthedocs.io/zh_CN/1.0/intro/overview.html
+
+个⼈项⽬
+awesome-python3-webapp: https://github.com/michaelliao/awesome-python3-webapp
+Flask⼤型教程项⽬:http://www.pythondoc.com/flask-mega-tutorial/
+
+
+Flask
+https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh(翻译⾃Miguel Grinberg的blog https://blog.miguelgrinberg.com 的2017年新版The Flask MegaTutorial教程)
+
+
+Python中⽂学习⼤本营
+http://www.pythondoc.com/
+
+Flask中/英⽂⽂档
+http://docs.jinkan.org/docs/flask/
+http://flask.pocoo.org/
+
+
+
+Django
+https://docs.djangoproject.com/zh-hans/2.2/
+
+书
+python-cookbook: https://github.com/yidao620c/python3-cookbook
+流畅的python
+Python核⼼编程
+
+
+尝试⼀下⼤佬们玩的东⻄
+https://github.com/AtsushiSakai/PythonRobotics#what-is-this(Python机器人算法示例代码)
+
+
+awesome整个资源
+https://github.com/sindresorhus/awesome

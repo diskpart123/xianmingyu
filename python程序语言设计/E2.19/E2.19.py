@@ -1,0 +1,5 @@
+amount = eval(input("Enter investment amount: "))
+rate = eval(input("Enter annual interest rate: "))
+years = eval(input("Enter number of years: "))
+acc = amount * (1 + rate / 1200) ** (years * 12)
+print("Accumulated value is",round(acc,2))

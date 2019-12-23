@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/7/7 7:34:00。
+     1>项目“E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\MemSearch\MemSearch.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\MemSearch.res" MemSearch.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\Release\MemSearch.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\Release\MemSearch.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\Release\MemSearch.lib" /MACHINE:X86 /SAFESEH Release\MemSearch.res
+         Release\MemSearch.obj
+         Release\MemSearchDlg.obj
+         Release\SelProcess.obj
+         Release\stdafx.obj
+         Release\VMInfo.obj
+         正在生成代码
+         已完成代码的生成
+         MemSearch.vcxproj -> E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\Release\MemSearch.exe
+     1>已完成生成项目“E:\VC++\Windows编程循序渐进\Windows编程循序渐进\第13章\MemSearch\MemSearch\MemSearch.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.04

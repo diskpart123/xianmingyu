@@ -1,0 +1,13 @@
+#准备工作
+    1.安装第三方模块pyinstaller
+        pip install PyInstaller
+    2.安装程序的图标下载
+        可以到阿里巴巴矢量图标库(www.iconfont.cn)
+    3.把阿里巴巴下载的矢量图标png格式转换成sco格式的图片
+        在线图片格式转换网站(https://www.easyicon.net/covert/) ,
+        然后在打开的网址选择"microsoft icon",图片大小选择:16X16
+    4.开始打包文件:
+        4.1 pyinstaller xxx.py    #说明:此种方法打包程序时不包含第三方库,如果程序依赖第三方库则此种方法不行,此种打包方法会产生build,dist(目标文件),后缀为.spec三个文件
+        4.2 pyinstaller -F xxx.py #说明:此种方法打包程序时会把程序所依赖的第三方库都打包进来
+        4.3 pyinstaller -F -i temper.ico xxx.py  #说明:此种方法打包程序会把程序所依赖的第三方库都打包进来,同时会加一个好看的图标,其中temper.ico为图标的名称,我这里用的是"temper.ico"
+            此种打包方法也会产生build,dist(目标文件),后缀为.spec三个文件,其中dist(目标文件)文件中只会有一个执行程序
