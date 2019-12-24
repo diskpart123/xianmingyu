@@ -33,4 +33,25 @@ while not youxi:
                     print("请重新输入！")
                     continue
 """
+import  os
+import time
+import datetime
+path=input("请输入文件路径:")
+for root,dirs,files in os.walk(path):
+    for file in files:
+        a=os.path.join(root,file)
+        b = time.localtime(os.stat(a).st_ctime)
+        b = time.strftime("%Y%m%d", b)
+        today = datetime.datetime.now()
+        offset = datetime.timedelta(days=-7)
+        re_date = (today + offset).strftime('%Y%m%d')
+        if re_date>=b:
+            os.remove(a)
+        else:
+            pass
+
+       
+
+
+
 

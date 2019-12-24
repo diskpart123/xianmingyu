@@ -32,7 +32,7 @@ def printHello():
 if __name__ == "__main__":
     printHello()
 """
-"""
+
 import  os
 import time
 import datetime
@@ -52,7 +52,7 @@ for i in sele_path:
         pass
     # print(i,time.ctime(os.stat(path+"\\"+i).st_ctime) )#文件的创建时间
 
-"""
+
 """
 import datetime
 today = datetime.datetime.now()
@@ -64,8 +64,6 @@ print(today)
 print(re_date)
 print(today>re_date)
 """
-
-
 
 
 
