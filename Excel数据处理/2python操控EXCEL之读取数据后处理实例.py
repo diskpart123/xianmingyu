@@ -25,6 +25,3 @@ for i in range(len(list_b)):  # 遍历list_b列表值的下标
 wb.save("1.xlsx")  # 把修改好的数据保存到一个为1.xlsx表格当中
 
 
-"""
-excel表格打印输出对齐
-"""

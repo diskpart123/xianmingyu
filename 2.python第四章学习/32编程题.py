@@ -668,13 +668,13 @@ turtle.dot(10, "black")
 x=abs(x) #利用abs函数把x转换为绝对值
 y=abs(y) #利用abs函数把y转换为绝对值
 if x<200 and y<100:
-    print("圆内")
+    print("矩形内")
 elif x==200 and y<100:
-     print("圆高边上")
+     print("矩形宽高边上")
 elif x<200 and y==100:
-    print("圆宽边上")
+    print("矩形长边上")
 else:
-    print("圆外!")
+    print("矩形外!")
 turtle.done()
 """
 
