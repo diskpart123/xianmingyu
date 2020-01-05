@@ -316,8 +316,21 @@ t.forward(500)
 t.right(90)
 turtle.done()
 """
-for  i in range(8):
-    for j in range(8):
+#乘法
+"""
+for i in range(1,10):
+    for j in range(1,i+1):
+        print("%dX%d=%d"%(j,i,i*j),end="  ")
+    print()
+"""
 
+#加法
+"""
+for i in range(1,10):
+    for j in range(1,10):
+        print(format(j),"+",format(i),"=",format(i+j,"<2d"),end="   ")
+    print()
+"""
+#除法
 
 
