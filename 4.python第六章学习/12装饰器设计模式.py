@@ -32,7 +32,7 @@ def come():
 
 """
 解释:我们可以在调用getcosttime函数的时候把come这个函数当作参数的方式传递进去
-在getcosttime函数第23行的test()就代表come这个函数,同理我们也可以把go1这个
+在getcosttime函数第13行的test()就代表come这个函数,同理我们也可以把go1这个
 函数当作参数的方式传递给到getcosttime函数
 """
 #
