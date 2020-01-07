@@ -20,6 +20,3 @@
 #         else:
 #             a.append(i)
 # print(a)
-#niaho
-
-#学习真好
