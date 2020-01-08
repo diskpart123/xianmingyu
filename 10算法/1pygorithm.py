@@ -167,7 +167,6 @@ from pygorithm.sorting import heap_sort
 l = [9,4,5,1,7]
 result = heap_sort.sort(l)
 print(result)       # [1, 4, 5, 7, 9]
-
 code = heap_sort.get_code()     # 获取实现函数的算法
 print(code)
 """
