@@ -26,17 +26,49 @@
 # for i in range(len(result)):
 #     print(i,result[i])
 
-# 编写一个购物车程序
-def Commodity(**sku):
-    return sku
-a=Commodity(kele=10,xuebi=3)
-center="打印商品列表"
-print(center.center(20,"*"))
-print(a)
-add_shoping={}
-shoping_sku=input("请输入商品名称:")
-if shoping_sku==a[shoping_sku]:
-    add_shoping["shoping_sku"]=a
+"""
+dog_level={
+    "京巴":20,
+    "哈奇士":40,
+    "藏獒":60,
+    "平头哥":80
+}
+
+def dog_obj(name,type):
+    d={
+        "name":name,
+        "type":type,
+        "life_val":100
+    }
+    return d
+def person(name,age,sex):
+    d={
+        "name":name,
+        "age":age,
+        "sex":sex
+    }
+    if age>18:
+        d["access_level"]=50
+    else:
+        d["access_level"]=30
+    return d
+def dog_gongji(dog1,p1):
+    print("疯狗[%s]咬了[%s],掉了[%s]"%(dog1["name"],p1["name"],dog_level[dog1["type"]]))
+    #print("疯狗[%s]咬了[%s],掉血[%s]..." %(dog_obj["name"], person_obj['name'], dog_attack_level[dog_obj["type"]]) )
+def person_gongji(p1,dog1):
+    print("[%s]打了疯狗[%s],掉了[%s]"%(p1["name"],dog1["name"],p1["access_level"]))
+"""
+class Dog:
+    d_type="jingba"
+    def say_hi(self):
+        print("This is",self.d_type)
+d1=Dog()
+d2=Dog()
+print(id(d1.d_type))
+print(id(d2.d_type))
+
+
+
 
 
 
