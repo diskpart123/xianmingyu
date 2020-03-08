@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div+css简单布局</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .header{
+            width: 1000px;
+            height: 100px;
+            /*auto 左右居中显示*/
+            margin: 0 auto;
+            background: pink;
+        }
+        .header .logo{
+
+            width: 150px;
+            height: 100px;
+            float: left;
+            background: skyblue;
+
+                 }
+        .header .nav{
+            width: 750px;
+            height: 100px;
+            float: right;
+            background: skyblue;
+        }
+        .content{
+            width: 1000px;
+            height: 400px;
+            /*margin 容器之间的间隔*/
+            margin: 30px auto;
+            background: pink;
+        }
+        .content .slide{
+            width: 250px;
+            height: 300px;
+            float: left;
+            background: skyblue;
+
+        }
+        .content .main{
+            width: 650px;
+            height: 400px;
+            float: right;
+            background: skyblue;
+        }
+        .footer{
+            width: 1000px;
+            height: 100px;
+            margin:10px auto;
+            background: skyblue;
+        }
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+<!--定义网站的头部-->
+<div class="header">
+    <div class="logo">logo</div>
+    <div class="nav">导航</div>
+</div>
+
+
+<!--定义网站主体部分-->
+<div class="content">
+    <div class="slide">侧边栏</div>
+    <div class="main">主体</div>
+</div>
+
+
+<!--定义网站尾部部分-->
+<div class="footer">尾部</div>
+
+
+</body>
+
+
+</html>

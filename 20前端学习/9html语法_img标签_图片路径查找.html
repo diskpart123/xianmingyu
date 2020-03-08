@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片文件路径</title>
+</head>
+<body>
+<!-- 相对路径查找-->
+<img src="head.png" alt=""/>
+<img src="1笔记素材/h系列6级标签.png" alt=""/>
+<img src="../head.png" alt=""/>
+<img src="../学习资源/html骨架.png" alt=""/>
+<img src="1笔记素材/代码格式化.png" alt=""/>
+
+    <!-- 绝对路径查找(目前学习是在百度搜索的图片然后把图片地址复制过来，然后在浏览器显示没有问题，
+    但是添加本地文件的绝对路径时在浏览器上预览无显示，后续再练习)-->
+<img src="https://timgsa.baidu.com/timg?
+image&quality=80&size=b9999_10000&sec=
+1582558149968&di=f07609248d4d6da9c2e6933513b25bbd&imgtype=0&
+src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201706%2F14%2F20170614141306_eB35C.jpeg" alt=""/>
+
+<!-- 图片的属性设置-->
+<!-- 图片的宽度设置 width是设置图片的宽度"-->
+<img src="1笔记素材/汪星人.jpg" width="200" alt=""/>
+
+<!-- 图片的高度设置 height是设置图片的高度"-->
+<img src="1笔记素材/汪星人.jpg"  height="300" alt=""/>
+
+<!-- 图片的宽度和高度设置 width,height"-->
+<img src="1笔记素材/汪星人.jpg" width="200" height="300" alt=""/>
+
+<!--title是设置图片的文本提示，我们在浏览器中把鼠标悬停在图片上
+就会提示“这是一只狗"-->
+<img src="1笔记素材/汪星人.jpg" width="500" height="403"  title="这是一只狗" alt=""/>
+
+
+<!--  alt 设置图像没有找到时候的替换文本-->
+<img src="1笔记素材/xxx.jpg" width="500" height="403"  title="这是一只狗" alt="这个图片没有找到"/>
+
+</body>
+</html>

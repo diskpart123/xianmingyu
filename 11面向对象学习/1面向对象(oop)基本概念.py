@@ -3,8 +3,8 @@
 # @Author  : xianming yu
 # @File    : 1面向对象(oop)基本概念.py
 
-#面向对象编程--Object Oriented Programming 简写 OOP
 """
+面向对象编程--Object Oriented Programming 简写 OOP
 开始学习!
 """
 """

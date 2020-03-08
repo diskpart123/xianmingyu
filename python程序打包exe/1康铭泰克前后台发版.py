@@ -30,7 +30,7 @@ while count < 5:
         else:
             print("不包含:", refer_to)
     elif status == 2:
-        print("把Mis_Bin升级包拷贝到E:\IISProject\CLZ-Test\\bin下")
+        print("把Mis_Bin升级包拷贝到E:\IISProject\CLZ-Test\\bin")
         zhantie_mubiaolujing = input("目标路径:")
         if refer_to in path:
             shutil.copy(path, zhantie_mubiaolujing)

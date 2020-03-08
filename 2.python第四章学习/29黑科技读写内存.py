@@ -16,8 +16,8 @@ PROCESS_ALL_ACCESS =(0x000F0000|0x00100000|0xFFF) #| 位运算符,0x十六进制
 
 """
 解释:创建一个窗体标识:windows,FindWindow表示查找一个窗体,它有两个参数("类名","标题"),
-这里可以用spy软件来查找"类名"与"标题"
-"""
+这里可以用spy软件
+"""来查找"类名"与"标题"
 window=win32gui.FindWindow("343434","Plants vs. Zombies 1.2.0.1073 RELEASE")
 
 
@@ -46,6 +46,6 @@ mydll = ctypes.windll.loadLibrary("c:\\windows\\System32\\kernel32.dll")
 #首先把phand转换成int类型,然后读取内存地址
 mydll.ReadProcessMemory(int(phand),546813992,ctypes.byref(date),4,None)
 
-#
+
 print(date.value)
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+
+
+</head>
+<body>
+<form>
+    <p>
+<!--        文本框示示例，其中text代表文本框-->
+        文本框：<input type="text" value="请输入姓名">
+    </p>
+
+
+
+    <p>
+<!--        密码框示例,其中password代码密码框-->
+        密码框：<input type="password">
+    </p>
+
+    <p>
+<!--        普通按钮-->
+        <input type="button" value="普通按钮">
+<!--        提交按钮-->
+        <input type="submit" value="提交按钮">
+<!--        重置按钮-->
+        <input type="reset"  value="重置按钮">
+    </p>
+
+
+
+<!--    单选框-->
+
+    <p>性别:
+<!--        name="sex",认为这两个单选框都为sex这个组
+            如果不指定sex这个组,男女都可以选,这样是不对的-->
+        <input type="radio" name="sex">男
+        <input type="radio" name="sex">女
+        <input type="radio" name="sex">保密
+    </p>
+
+
+<!--    多选框-->
+    <p>爱好：
+        <input type="checkbox" name="hobby">唱歌
+        <input type="checkbox" name="hobby">跳舞
+        <input type="checkbox" name="hobby">武术
+        <input type="checkbox" name="hobby">声乐
+
+    </p>
+
+
+
+<!--    文本域-->
+    <p>个人介绍：
+<!-- cols代表多少个字节,我这里指定的是30个字节，没有汉字占两个字节，所以
+每行只能放15个汉字,rows指定的是10，代表是10行-->
+        <textarea cols="30" rows="10">默认的</textarea>
+    </p>
+
+
+
+
+    <p>城市选择：
+        <select>
+            <option>广州</option>
+            <option>上海</option>
+            <option>北京</option>
+            <option>武汉</option>
+            <option>深圳</option>
+
+        </select>
+
+    </p>
+</form>
+
+
+</body>
+
+
+</html>
