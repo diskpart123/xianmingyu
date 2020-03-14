@@ -12,7 +12,7 @@ Pycharm控制台输出文件内容不完整设置:
         2.勾选上"override console cycle buffer size(1000000kb)"_50000_kb
 
 函数DBUG工具
-    PySnooper
+    PySnooper 
 
 
 翻译软件
