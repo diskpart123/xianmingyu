@@ -31,7 +31,7 @@
     我戏弄生命 视其为愚蠢的游戏
 """
 
-files="E:\\xianmingyu\\7文件操作\\1.txt"
+files="E:\\xianmingyu\\7txt文件操作\\1.txt"
 with open(files,"r",encoding="utf-8") as f1:
     result=f1.readlines()
     count=0
