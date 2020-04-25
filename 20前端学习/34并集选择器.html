@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交集选择器</title>
+
+    <style type="text/css">
+        div,p,li,ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*清除ul和ol标签前面的小圆点*/
+        ul,ol{
+            list-style: none;
+        }
+       p,li.one{
+           color: cornflowerblue;
+           font-size: 30px;
+       }
+    </style>
+</head>
+
+<body>
+<div class="box1">
+    <ul>
+        <li class="one list">这里是第一个div的li</li>
+        <li>这里是第一个div的li</li>
+        <li>
+            这里是第一个div的li
+            <p class="one">这是li标签里面的p标签</p>
+        </li>
+
+        <li>这里是第一个div的li</li>
+    </ul>
+</div>
+
+<div class="box2">
+    <ul>
+        <li class="one">这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+    </ul>
+</div>
+</body>
+
+</html>

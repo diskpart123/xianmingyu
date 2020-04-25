@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器权重优先级(权重一样)</title>
+    <style type="text/css">
+        .box1 .box2 #box3 p{
+            color: red;
+        }
+        .box1 #box2 .box3 p{
+            color: green;
+        }
+
+        #box1 .box2 .box3 p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box1" id="box1">
+    <div class="box2" id="box2">
+        <div class="box3" id="box3">
+            <p>我的颜色听谁的</p>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

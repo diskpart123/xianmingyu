@@ -20,8 +20,8 @@ def get_all_path(open_file_path):
             path_list.extend(get_all_path(com_path))
     return path_list
 
-test=get_all_path("E:\\python3高级视频\\667501933")
+test=get_all_path("E:\\python教程\\96858947")
 for i in test:
     if i.endswith(".flv"):
         # 把文件拷贝到 E:\\python3高级视频\\ceshi1目录下
-        shutil.copy(i, "E:\\python3高级视频\\ceshi1")
+        shutil.copy(i, "E:\\python教程\\极客时间_算法与数据结构")

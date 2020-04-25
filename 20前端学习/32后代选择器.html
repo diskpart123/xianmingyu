@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台选择器</title>
+
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box2 li{
+            color: red;
+
+        }
+        .box1 li{
+            color:blue;
+        }
+        .box1 .one{
+            color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<div class="box1">
+    <ul>
+        <li class="one">这里是第一个div的li</li>
+        <li>这里是第一个div的li</li>
+        <li>
+            这里是第一个div的li
+            <p class="one">这是li标签里面的p标签</p>
+        </li>
+
+        <li>这里是第一个div的li</li>
+    </ul>
+</div>
+
+<div class="box2">
+    <ul>
+        <li class="one">这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+        <li>这里是第二个div的li</li>
+    </ul>
+</div>
+</body>
+
+</html>
